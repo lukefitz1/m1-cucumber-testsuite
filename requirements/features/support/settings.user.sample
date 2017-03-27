@@ -1,0 +1,9 @@
+module.exports = {
+    baseUrl: 'http://localhost:3000/',
+
+    dbHost: '127.0.0.1', 
+    dbUser: 'vagrant', 
+    dbPass: '',
+
+    browserName: 'phantomjs'
+};

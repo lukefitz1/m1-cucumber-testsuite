@@ -1,0 +1,28 @@
+{
+  "name": "cucumber-demo",
+  "version": "0.0.1",
+  "description": "Cucumber Demonostration Scenarios",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "grunt selenium_standalone:server:install",
+    "test": "grunt test"
+  },
+  "author": "William C. Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "cucumber": "^1.3.1",
+    "gherkin-lint": "^1.1.3",
+    "grunt": "1.0.1",
+    "grunt-cucumberjs": "^0.10.12",
+    "grunt-exec": "^1.0.0",
+    "grunt-selenium-standalone": "^1.0.1",
+    "mysql": "^2.11.1",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "selenium-standalone": "^5.6.2",
+    "soap": "~0.16.0",
+    "webdriverio": "^4.2.11"
+  }
+}
